@@ -1,35 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="view-transition" content="same-origin" />
-
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="/main.js" defer></script>
-    <title>Demo title here</title>
-    <link href="/style.css" rel="stylesheet" />
-  </head>
-
-  <body>
-    <nav>
-      <ul class="nav-list">
-        <li class="active">
-          <a href="index.html" aria-current="page">Home</a>
-        </li>
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li>
-          <a href="blog.html">Blog</a>
-        </li>
-        <li><a href="#">Another</a></li>
-        <li><a href="#">Page</a></li>
-        <li><a href="#">And another</a></li>
-      </ul>
-    </nav>
-    <main>
-      <h1>Home</h1>
-    </main>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Active Link On Scroll HTML CSS JS | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">ActiveLink.</a>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home">Home</section>
+    <section id="about">About</section>
+    <section id="services">Services</section>
+    <section id="portfolio">Portfolio</section>
+    <section id="contact">Contact</section>
+    <script src="script.js"></script>
+</body>
 </html>
